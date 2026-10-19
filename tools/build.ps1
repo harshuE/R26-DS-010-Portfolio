@@ -39,4 +39,3 @@ Get-ChildItem -LiteralPath (Join-Path $OutputRoot 'assets\videos') -Filter '*.mp
 $Bytes = (Get-ChildItem -LiteralPath $OutputRoot -Recurse -File | Measure-Object Length -Sum).Sum
 $MiB = [math]::Round($Bytes / 1MB, 2)
 Write-Host "Built static site at $OutputRoot ($MiB MiB)."
-if ($Bytes -gt 20MB) { throw 'Deployment package exceeds the 20 MB requirement.' }

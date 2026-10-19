@@ -110,6 +110,7 @@ window.CARE = {
     {title:"PP2 Presentation", type:"presentation", stage:"Progress 2", file:"../presentations-assets/R26-DS-010-PP2-Presentation.pdf", status:"available", note:"Finalized presentation slides and authoritative source for component titles; supplied as a package-optimized PDF."},
     {title:"Final Presentation", type:"presentation", stage:"Final", status:"missing", note:"Scheduled for the final research project presentation on 21 October 2026; not yet produced."},
     {title:"Common Thesis Report", type:"thesis", stage:"Final", status:"source-only", link:"https://mysliit-my.sharepoint.com/:b:/g/personal/it22057488_my_sliit_lk/IQBUqHFQiIqzS6TaOMorJva3Afxf__bCHI1_By7_yAuTpgw?e=DwIgtF", note:"The combined CareSense thesis draft, shared across all four components."},
+    {title:"Project Logbook (April–October)", type:"logbook", stage:"Ongoing record", status:"source-only", link:"https://mysliit-my.sharepoint.com/:b:/g/personal/it22057488_my_sliit_lk/IQAxtlJDmKRNQaOxYaGSF8UvAV0RYO18niHR8ZvHz-zLpuM?e=1u1rSe", note:"Merged project logbook covering April through October, shared across all four components."},
     {title:"PULSE — Individual Thesis Draft", type:"thesis", component:"pulse", stage:"Final thesis", file:"theses/IT22178640-PULSE-Thesis-Draft.pdf", status:"available", note:"Dayana Priyadharshani Kumar · IT22178640 · 114-page October 2026 draft."},
     {title:"PULSE — Individual Proposal", type:"proposal", component:"pulse", stage:"Proposal", status:"source-only", link:"https://mysliit-my.sharepoint.com/:b:/g/personal/it22057488_my_sliit_lk/IQChSJr4tE8DQ5lpBHtAXWOyAXUq8vfe3srAb__4dkF24nw?e=ztt2wz", note:"Dayana's individual proposal document"},
     {title:"PULSE — Checklist 2: Data Analysis Report", type:"report", component:"pulse", stage:"Analysis", status:"source-only", link:"https://mysliit-my.sharepoint.com/:b:/g/personal/it22057488_my_sliit_lk/IQBX1WwQTCTSQI2qSQUS5uw6ARH96ajJ9dQgLBpEYXJ6ELE?e=Q9lWkh", note:"Dayana's Checklist 2 data-analysis report"},
@@ -142,15 +143,22 @@ window.CARE = {
   ],
   gallery: [
     {src:"blurred-care-facility.jpg", title:"Care-facility context", caption:"Privacy-preserving field image with resident faces blurred."},
-    {src:"blurred-ward-room.jpg", title:"Care-facility ward (blurred)", caption:"A second care-facility ward, with resident faces blurred for privacy."},
     {src:"field-visit-team.jpg", title:"Research field visit", caption:"CareSense researchers during an institutional visit; publication consent should be reconfirmed."},
-    {src:"supervisor-meeting.jpg", title:"Supervisor progress review", caption:"The research team meeting with the academic supervision panel to review progress."},
     {src:"supervisor-team.jpg", title:"Team and academic guidance", caption:"Research group photograph with an academic representative; identities beyond the named team require confirmation."},
+    {src:"uat-group-session.jpg", title:"UAT group session", caption:"The research team with facility residents and family during a group UAT session; non-team faces blurred for privacy."},
+    {src:"uat-caregiver-demo.jpg", title:"UAT caregiver demonstration", caption:"Researchers demonstrating a module to facility staff during user acceptance testing."},
+    {src:"blurred-ward-room.jpg", title:"Care-facility ward (blurred)", caption:"A second care-facility ward, with resident faces blurred for privacy."},
+    {src:"supervisor-meeting.jpg", title:"Supervisor progress review", caption:"The research team meeting with the academic supervision panel to review progress."},
     {src:"site-visit-discussion.jpg", title:"Care-site field discussion", caption:"A researcher discussing ward layout and equipment with facility staff during a site visit; publication consent should be reconfirmed."},
     {src:"team-briefing-session.jpg", title:"Site visit briefing", caption:"Researchers reviewing documentation with facility staff beside a simulation bed; publication consent should be reconfirmed."},
     {src:"simulation-lab.jpg", title:"Simulation environment", caption:"Clinical simulation beds used during a research visit; no patient is pictured."},
     {src:"clinical-simulation-ward.jpg", title:"Clinical simulation ward", caption:"A wider view of the clinical training environment, including simulation beds, mannequins and emergency-transfer equipment; no patient is pictured."},
     {src:"journal-submission-session.jpg", title:"Journal paper writing session", caption:"The research team and supervisor reviewing the journal submission process for the revised paper."},
-    {src:"site-visit-briefing-2.jpg", title:"Site visit briefing (continued)", caption:"A further moment from the same facility site-visit briefing; publication consent should be reconfirmed."}
+    {src:"site-visit-briefing-2.jpg", title:"Site visit briefing (continued)", caption:"A further moment from the same facility site-visit briefing; publication consent should be reconfirmed."},
+    {src:"uat-care-facility.jpg", title:"UAT at the care facility", caption:"User acceptance testing underway at the care facility, with resident faces blurred for privacy."},
+    {src:"uat-pulse-testing.jpg", title:"PULSE user acceptance testing", caption:"Dayana conducting user acceptance testing for the PULSE module."},
+    {src:"uat-sentry-testing.jpg", title:"SENTRY user acceptance testing", caption:"Harishalinee conducting user acceptance testing for the SENTRY module; participant face blurred for privacy."},
+    {src:"uat-scribe-testing.jpg", title:"SCRIBE user acceptance testing", caption:"Vithursha conducting user acceptance testing for the SCRIBE module."},
+    {src:"uat-gloss-testing.jpg", title:"GLOSS user acceptance testing", caption:"Kaushalya conducting user acceptance testing for the GLOSS module; participant face blurred for privacy."}
   ]
 };
